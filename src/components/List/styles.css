@@ -1,0 +1,47 @@
+.container {
+    padding: 15px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+.formContainer {
+    display: flex; 
+    gap: 10px;
+    padding-top: 20px;
+}
+
+
+
+.formControl {
+    margin-bottom: 10px;
+    
+}
+
+.list {
+    margin-top: 0px;
+    height: 65vh; 
+    overflow: auto;
+}
+
+.jumpButton {
+    margin-bottom: 10px;
+}
+
+
+.titleListContainer {
+    display: flex ;
+    justify-content: space-between;
+}
+
+.titleListContainer.open {
+    background-color: red;
+}
+
+.titleListContainer.closed {
+    background-color: blue;
+}
